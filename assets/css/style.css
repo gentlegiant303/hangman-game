@@ -1,0 +1,17 @@
+#blankSpaces {
+  font-size:24px;
+}
+
+.Title {
+  background-color: blue;
+  color:yellow;
+}
+
+.wrapper {
+  background-color: darkgray;
+}
+
+.btn.btn-default {
+  margin-top: 10px;
+  margin-right: 5px;
+}

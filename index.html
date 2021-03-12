@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> hangman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+   <div class="container">
+     <div class="jumbotron Title">
+       <h1 class="text-center"> Beauty and the Beast Hangman</h1>
+     </div>
+     <div class="col-md-4">
+<img src="./assets/images/bb.jpg" alt="Movie Poster" width="350px" />
+     </div>
+     <div class="col-md-4 Title">
+     <button id="start"class="btn btn-default"> Click here to get started</button>
+     <button class="btn btn-default" id="reset">Play again</button>
+     <br>
+     <br>Wins:<span id="wins"></span>
+     <br><span id="blankSpaces"></span>
+     <br>
+     <br>Number of Guesses Remaining: <span id="guessesLeft">10</span>
+     <br>
+     <br>Letters Already Guessed: <span id="lettersGuessed"></span>
+     <br>
+     <br>
+   </div>
+  <div class="col-md-4">
+<img src="./assets/images/Rose.jpg" alt="Rose" width="350px" height="515px" />
+  </div>
+ </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+  </body>
+</html>
